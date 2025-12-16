@@ -1,0 +1,5 @@
+import pyvisa
+
+rm = pyvisa.ResourceManager()
+visa_list = rm.list_resources()
+print(visa_list)
